@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExploreMore Travel Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x600/?travel,beach') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    header a {
+      padding: 10px 25px;
+      background: #f39c12;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .destinations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Explore the World with Us</h1>
+    <p>Your dream destination is just a click away!</p>
+    <a href="#contact">Contact Us</a>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Flight Booking</h3>
+        <p>We offer affordable and reliable flight bookings to all destinations.</p>
+      </div>
+      <div class="card">
+        <h3>Hotel Reservations</h3>
+        <p>Stay at the best hotels with our exclusive deals and discounts.</p>
+      </div>
+      <div class="card">
+        <h3>Tour Packages</h3>
+        <p>Choose from a wide range of custom-made travel packages.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular Destinations</h2>
+    <div class="destinations">
+      <div class="card">
+        <h3>Paris, France</h3>
+        <p>Experience the city of love and its iconic Eiffel Tower.</p>
+      </div>
+      <div class="card">
+        <h3>Dubai, UAE</h3>
+        <p>Discover luxury, adventure, and breathtaking architecture.</p>
+      </div>
+      <div class="card">
+        <h3>Tokyo, Japan</h3>
+        <p>Explore futuristic vibes and rich cultural traditions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 08156337222</p>
+    <p>📧 abiolafavour2018@gmail.com</p>
+    <p>📍 oyo state</p>
+  </section>
+
+  <footer>
+    <p>&copy; Favour's Travel Agency.</p>
+  </footer>
+
+</body>
+</html>
